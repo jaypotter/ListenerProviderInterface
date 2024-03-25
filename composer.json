@@ -1,0 +1,21 @@
+{
+    "name": "potter/listener-provider-interface",
+    "description": "PHP Listener Provider Interface",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Event\\Listener\\": "src/Potter/Event/Listener/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
